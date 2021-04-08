@@ -1,0 +1,10 @@
+--- sequoia-net-0.23.0/Cargo.toml	2021-01-21T13:57:56+00:00
++++ sequoia-net-0.23.0/Cargo.toml	2021-04-07T11:42:11.498117+00:00
+@@ -64,7 +64,6 @@
+ version = "0.1.2"
+ [dev-dependencies.rand]
+ version = "0.7"
+-default-features = false
+ 
+ [dev-dependencies.tokio]
+ version = "0.2.19"
