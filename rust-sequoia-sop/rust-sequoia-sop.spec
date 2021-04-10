@@ -10,7 +10,7 @@ Release:        1%{?dist}
 Summary:        Stateless OpenPGP Command Line Interface using Sequoia
 
 # Upstream license specification: GPL-2.0-or-later
-# FIXME: missing license file
+# https://gitlab.com/sequoia-pgp/sequoia-sop/-/issues/5
 License:        GPLv2+
 URL:            https://crates.io/crates/sequoia-sop
 Source:         %{crates_source}

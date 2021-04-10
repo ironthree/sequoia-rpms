@@ -10,7 +10,7 @@ Release:        1%{?dist}
 Summary:        Linter for keyrings
 
 # Upstream license specification: GPL-2.0-or-later
-# FIXME: missing license file
+# https://gitlab.com/sequoia-pgp/keyring-linter/-/issues/8
 License:        GPLv2+
 URL:            https://crates.io/crates/sequoia-keyring-linter
 Source:         %{crates_source}
