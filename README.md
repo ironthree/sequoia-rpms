@@ -11,37 +11,38 @@ dependencies that are not yet available from the official Fedora repositories.
 Package Review Tickets
 ----------------------
 
-| package                           | ticket link       |
-| --------------------------------- | ----------------- |
-| rust-ascii-canvas                 | [RHBZ#1948128]    |
-| rust-buffered-reader              | N/A |
-| rust-capnp                        | N/A |
-| rust-capnp-futures                | N/A |
-| rust-capnp-rpc                    | N/A |
-| rust-configparser                 | N/A |
-| rust-dyn-clone                    | N/A |
-| rust-ena                          | N/A |
-| rust-fallible-streaming-iterator  | N/A |
-| rust-hashlink                     | N/A |
-| rust-lalrpop                      | N/A |
-| rust-lalrpop-util                 | N/A |
-| rust-memsec                       | N/A |
-| rust-nettle                       | N/A |
-| rust-nettle-sys                   | N/A |
-| rust-rusqlite                     | N/A |
-| rust-sequoia-autocrypt            | N/A |
-| rust-sequoia-ipc                  | N/A |
-| rust-sequoia-keyring-linter       | N/A |
-| rust-sequoia-net                  | N/A |
-| rust-sequoia-octopus-librnp       | N/A |
-| rust-sequpoa-openpgp              | N/A |
-| rust-sequoia-sop                  | N/A |
-| rust-sequoia-sq                   | N/A |
-| rust-sequoia-sqv                  | N/A |
-| rust-sha1collisiondetection       | N/A |
-| rust-zbase32                      | N/A |
+| package                           | ticket link       | required by                   |
+| --------------------------------- | ----------------- | ----------------------------- |
+| rust-ascii-canvas                 | [RHBZ#1948128]    | lalrpop                       |
+| rust-buffered-reader              | [RHBZ#1948130]    | sequoia-openpgp               |
+| rust-capnp                        | N/A               | capnp-futures                 |
+| rust-capnp-futures                | N/A               | capnp-rpc                     |
+| rust-capnp-rpc                    | N/A               | sequoia-ipc                   |
+| rust-configparser                 | N/A               | sequoia-octopus-librnp        |
+| rust-dyn-clone                    | N/A               | sequoia-openpgp               |
+| rust-ena                          | N/A               | lalrpop                       |
+| rust-fallible-streaming-iterator  | N/A               | rusqlite                      |
+| rust-hashlink                     | N/A               | rusqlite                      |
+| rust-lalrpop                      | N/A               | sequoia-openpgp               |
+| rust-lalrpop-util                 | N/A               | lalrpop                       |
+| rust-memsec                       | N/A               | sequoia-openpgp               |
+| rust-nettle                       | N/A               | sequoia-openpgp               |
+| rust-nettle-sys                   | N/A               | nettle                        |
+| rust-rusqlite                     | N/A               | sequoia-octopus-librnp        |
+| rust-sequoia-autocrypt            | N/A               | sequoia-{octopus-librnp,sq}   |
+| rust-sequoia-ipc                  | N/A               | sequoia-octopus-librnp        |
+| rust-sequoia-keyring-linter       | N/A               | N/A                           |
+| rust-sequoia-net                  | N/A               | sequoia-{octopus-librnp,sq}   |
+| rust-sequoia-octopus-librnp       | N/A               | N/A                           |
+| rust-sequpoa-openpgp              | N/A               | sequoia-*                     |
+| rust-sequoia-sop                  | N/A               | N/A                           |
+| rust-sequoia-sq                   | N/A               | N/A                           |
+| rust-sequoia-sqv                  | N/A               | N/A                           |
+| rust-sha1collisiondetection       | N/A               | sequoia-openpgp               |
+| rust-zbase32                      | N/A               | sequoia-net                   |
 
 [RHBZ#1948128]: https://bugzilla.redhat.com/show_bug.cgi?id=1948128
+[RHBZ#1948130]: https://bugzilla.redhat.com/show_bug.cgi?id=1948130
 
 Pending Package Updates
 -----------------------
