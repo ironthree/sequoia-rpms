@@ -15,19 +15,19 @@ Package Review Tickets
 | --------------------------------- | ----------------- | ----------------------------- |
 | rust-ascii-canvas                 | [RHBZ#1948128]    | lalrpop                       |
 | rust-buffered-reader              | [RHBZ#1948130]    | sequoia-openpgp               |
-| rust-capnp                        | N/A               | capnp-futures                 |
+| rust-capnp                        | [RHBZ#1948135]    | capnp-futures                 |
 | rust-capnp-futures                | N/A               | capnp-rpc                     |
 | rust-capnp-rpc                    | N/A               | sequoia-ipc                   |
-| rust-configparser                 | N/A               | sequoia-octopus-librnp        |
-| rust-dyn-clone                    | N/A               | sequoia-openpgp               |
+| rust-configparser                 | [RHBZ#1948133]    | sequoia-octopus-librnp        |
+| rust-dyn-clone                    | [RHBZ#1948134]    | sequoia-openpgp               |
 | rust-ena                          | N/A               | lalrpop                       |
-| rust-fallible-streaming-iterator  | N/A               | rusqlite                      |
-| rust-hashlink                     | N/A               | rusqlite                      |
+| rust-fallible-streaming-iterator  | [RHBZ#1948136]    | rusqlite                      |
+| rust-hashlink                     | [RHBZ#1948138]    | rusqlite                      |
 | rust-lalrpop                      | N/A               | sequoia-openpgp               |
-| rust-lalrpop-util                 | N/A               | lalrpop                       |
-| rust-memsec                       | N/A               | sequoia-openpgp               |
+| rust-lalrpop-util                 | [RHBZ#1948140]    | lalrpop                       |
+| rust-memsec                       | [RHBZ#1948142]    | sequoia-openpgp               |
 | rust-nettle                       | N/A               | sequoia-openpgp               |
-| rust-nettle-sys                   | N/A               | nettle                        |
+| rust-nettle-sys                   | [RHBZ#1948145]    | nettle                        |
 | rust-rusqlite                     | N/A               | sequoia-octopus-librnp        |
 | rust-sequoia-autocrypt            | N/A               | sequoia-{octopus-librnp,sq}   |
 | rust-sequoia-ipc                  | N/A               | sequoia-octopus-librnp        |
@@ -38,11 +38,21 @@ Package Review Tickets
 | rust-sequoia-sop                  | N/A               | N/A                           |
 | rust-sequoia-sq                   | N/A               | N/A                           |
 | rust-sequoia-sqv                  | N/A               | N/A                           |
-| rust-sha1collisiondetection       | N/A               | sequoia-openpgp               |
-| rust-zbase32                      | N/A               | sequoia-net                   |
+| rust-sha1collisiondetection       | [RHBZ#1948144]    | sequoia-openpgp               |
+| rust-zbase32                      | [RHBZ#1948143]    | sequoia-net                   |
 
 [RHBZ#1948128]: https://bugzilla.redhat.com/show_bug.cgi?id=1948128
 [RHBZ#1948130]: https://bugzilla.redhat.com/show_bug.cgi?id=1948130
+[RHBZ#1948135]: https://bugzilla.redhat.com/show_bug.cgi?id=1948135
+[RHBZ#1948133]: https://bugzilla.redhat.com/show_bug.cgi?id=1948133
+[RHBZ#1948134]: https://bugzilla.redhat.com/show_bug.cgi?id=1948134
+[RHBZ#1948136]: https://bugzilla.redhat.com/show_bug.cgi?id=1948136
+[RHBZ#1948138]: https://bugzilla.redhat.com/show_bug.cgi?id=1948138
+[RHBZ#1948140]: https://bugzilla.redhat.com/show_bug.cgi?id=1948140
+[RHBZ#1948142]: https://bugzilla.redhat.com/show_bug.cgi?id=1948142
+[RHBZ#1948145]: https://bugzilla.redhat.com/show_bug.cgi?id=1948145
+[RHBZ#1948144]: https://bugzilla.redhat.com/show_bug.cgi?id=1948144
+[RHBZ#1948143]: https://bugzilla.redhat.com/show_bug.cgi?id=1948143
 
 Pending Package Updates
 -----------------------
