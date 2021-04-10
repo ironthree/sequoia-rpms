@@ -16,28 +16,28 @@ Package Review Tickets
 | rust-ascii-canvas                 | [RHBZ#1948128]    | lalrpop                       |
 | rust-buffered-reader              | [RHBZ#1948130]    | sequoia-openpgp               |
 | rust-capnp                        | [RHBZ#1948135]    | capnp-futures                 |
-| rust-capnp-futures                | N/A               | capnp-rpc                     |
-| rust-capnp-rpc                    | N/A               | sequoia-ipc                   |
+| rust-capnp-futures                | [RHBZ#1948147]    | capnp-rpc                     |
+| rust-capnp-rpc                    | [RHBZ#1948148]    | sequoia-ipc                   |
 | rust-configparser                 | [RHBZ#1948133]    | sequoia-octopus-librnp        |
 | rust-dyn-clone                    | [RHBZ#1948134]    | sequoia-openpgp               |
-| rust-ena                          | N/A               | lalrpop                       |
+| rust-ena                          | [RHBZ#1948152]    | lalrpop                       |
 | rust-fallible-streaming-iterator  | [RHBZ#1948136]    | rusqlite                      |
 | rust-hashlink                     | [RHBZ#1948138]    | rusqlite                      |
-| rust-lalrpop                      | N/A               | sequoia-openpgp               |
+| rust-lalrpop                      | [RHBZ#1948150]    | sequoia-openpgp               |
 | rust-lalrpop-util                 | [RHBZ#1948140]    | lalrpop                       |
 | rust-memsec                       | [RHBZ#1948142]    | sequoia-openpgp               |
-| rust-nettle                       | N/A               | sequoia-openpgp               |
+| rust-nettle                       | [RHBZ#1948151]    | sequoia-openpgp               |
 | rust-nettle-sys                   | [RHBZ#1948145]    | nettle                        |
-| rust-rusqlite                     | N/A               | sequoia-octopus-librnp        |
-| rust-sequoia-autocrypt            | N/A               | sequoia-{octopus-librnp,sq}   |
-| rust-sequoia-ipc                  | N/A               | sequoia-octopus-librnp        |
+| rust-rusqlite                     | [RHBZ#1948153]    | sequoia-octopus-librnp        |
+| rust-sequoia-autocrypt            | [RHBZ#1948156]    | sequoia-{octopus-librnp,sq}   |
+| rust-sequoia-ipc                  | [RHBZ#1948157]    | sequoia-octopus-librnp        |
 | rust-sequoia-keyring-linter       | N/A               | N/A                           |
-| rust-sequoia-net                  | N/A               | sequoia-{octopus-librnp,sq}   |
-| rust-sequoia-octopus-librnp       | N/A               | N/A                           |
-| rust-sequpoa-openpgp              | N/A               | sequoia-*                     |
+| rust-sequoia-net                  | [RHBZ#1948158]    | sequoia-{octopus-librnp,sq}   |
+| rust-sequoia-octopus-librnp       | [RHBZ#1948159]    | N/A                           |
+| rust-sequpoa-openpgp              | [RHBZ#1948154]    | sequoia-*                     |
 | rust-sequoia-sop                  | N/A               | N/A                           |
-| rust-sequoia-sq                   | N/A               | N/A                           |
-| rust-sequoia-sqv                  | N/A               | N/A                           |
+| rust-sequoia-sq                   | [RHBZ#1948161]    | N/A                           |
+| rust-sequoia-sqv                  | [RHBZ#1948163]    | N/A                           |
 | rust-sha1collisiondetection       | [RHBZ#1948144]    | sequoia-openpgp               |
 | rust-zbase32                      | [RHBZ#1948143]    | sequoia-net                   |
 
@@ -53,6 +53,19 @@ Package Review Tickets
 [RHBZ#1948145]: https://bugzilla.redhat.com/show_bug.cgi?id=1948145
 [RHBZ#1948144]: https://bugzilla.redhat.com/show_bug.cgi?id=1948144
 [RHBZ#1948143]: https://bugzilla.redhat.com/show_bug.cgi?id=1948143
+[RHBZ#1948147]: https://bugzilla.redhat.com/show_bug.cgi?id=1948147
+[RHBZ#1948148]: https://bugzilla.redhat.com/show_bug.cgi?id=1948148
+[RHBZ#1948150]: https://bugzilla.redhat.com/show_bug.cgi?id=1948150
+[RHBZ#1948151]: https://bugzilla.redhat.com/show_bug.cgi?id=1948151
+[RHBZ#1948152]: https://bugzilla.redhat.com/show_bug.cgi?id=1948152
+[RHBZ#1948153]: https://bugzilla.redhat.com/show_bug.cgi?id=1948153
+[RHBZ#1948154]: https://bugzilla.redhat.com/show_bug.cgi?id=1948154
+[RHBZ#1948156]: https://bugzilla.redhat.com/show_bug.cgi?id=1948156
+[RHBZ#1948157]: https://bugzilla.redhat.com/show_bug.cgi?id=1948157
+[RHBZ#1948158]: https://bugzilla.redhat.com/show_bug.cgi?id=1948158
+[RHBZ#1948159]: https://bugzilla.redhat.com/show_bug.cgi?id=1948159
+[RHBZ#1948161]: https://bugzilla.redhat.com/show_bug.cgi?id=1948161
+[RHBZ#1948163]: https://bugzilla.redhat.com/show_bug.cgi?id=1948163
 
 Pending Package Updates
 -----------------------
