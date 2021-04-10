@@ -3,10 +3,23 @@ Work-in-Progress RPM Packages of Sequoia PGP for Fedora
 
 This repository contains RPM spec files and patches for the [sequoia-openpgp]
 crate, the [sequoia-octopus-librnp] extension for thunderbird, and all their
-dependencies that are not yet available from the official Fedora repositories.
+dependencies that are not yet available from the official Fedora repositories,
+and all available sequoia command line tools.
 
 [sequoia-openpgp]: https://crates.io/crates/sequoia-openpgp
 [sequoia-octopus-librnp]: https://gitlab.com/sequoia-pgp/sequoia-octopus-librnp
+
+Unofficial builds in COPR
+-------------------------
+
+All packages (including all dependencies, pending updates, patched thunderbird)
+are available for testing from a [COPR repository][copr] for Fedora 34 and
+rawhide, for both aarch64 and x86_64:
+
+Building Rust packages for Fedora 33 and 32 in COPR is next to impossible, so I
+will not be able to publish test builds for those older releases.
+
+[copr]: https://copr.fedorainfracloud.org/coprs/decathorpe/sequoia/monitor/
 
 Package Review Tickets
 ----------------------
