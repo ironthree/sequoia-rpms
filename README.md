@@ -31,11 +31,11 @@ Package Review Tickets
 | rust-rusqlite                     | [RHBZ#1948153]    | sequoia-octopus-librnp        |
 | rust-sequoia-autocrypt            | [RHBZ#1948156]    | sequoia-{octopus-librnp,sq}   |
 | rust-sequoia-ipc                  | [RHBZ#1948157]    | sequoia-octopus-librnp        |
-| rust-sequoia-keyring-linter       | N/A               | N/A                           |
+| rust-sequoia-keyring-linter       | [RHBZ#1948165]    | N/A                           |
 | rust-sequoia-net                  | [RHBZ#1948158]    | sequoia-{octopus-librnp,sq}   |
 | rust-sequoia-octopus-librnp       | [RHBZ#1948159]    | N/A                           |
 | rust-sequpoa-openpgp              | [RHBZ#1948154]    | sequoia-*                     |
-| rust-sequoia-sop                  | N/A               | N/A                           |
+| rust-sequoia-sop                  | [RHBZ#1948166]    | N/A                           |
 | rust-sequoia-sq                   | [RHBZ#1948161]    | N/A                           |
 | rust-sequoia-sqv                  | [RHBZ#1948163]    | N/A                           |
 | rust-sha1collisiondetection       | [RHBZ#1948144]    | sequoia-openpgp               |
@@ -66,6 +66,8 @@ Package Review Tickets
 [RHBZ#1948159]: https://bugzilla.redhat.com/show_bug.cgi?id=1948159
 [RHBZ#1948161]: https://bugzilla.redhat.com/show_bug.cgi?id=1948161
 [RHBZ#1948163]: https://bugzilla.redhat.com/show_bug.cgi?id=1948163
+[RHBZ#1948165]: https://bugzilla.redhat.com/show_bug.cgi?id=1948165
+[RHBZ#1948166]: https://bugzilla.redhat.com/show_bug.cgi?id=1948166
 
 Pending Package Updates
 -----------------------
