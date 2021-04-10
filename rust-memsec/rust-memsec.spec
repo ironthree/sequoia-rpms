@@ -7,7 +7,7 @@
 Name:           rust-%{crate}
 Version:        0.5.7
 Release:        1%{?dist}
-Summary:        Rust implementation `libsodium/utils`
+Summary:        Rust implementation of libsodium/utils
 
 # Upstream license specification: MIT
 License:        MIT
