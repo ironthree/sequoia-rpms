@@ -63,6 +63,11 @@ Pending Package Updates
 [RHBZ#1912117]: https://bugzilla.redhat.com/show_bug.cgi?id=1912117
 [RHBZ#1909357]: https://bugzilla.redhat.com/show_bug.cgi?id=1909357
 
+Pending Thunderbird Pull Request
+--------------------------------
+
+<https://src.fedoraproject.org/rpms/thunderbird/pull-request/11>
+
 License
 -------
 
