@@ -5,7 +5,7 @@
 %global crate configparser
 
 Name:           rust-%{crate}
-Version:        2.0.0
+Version:        2.0.1
 Release:        1%{?dist}
 Summary:        Simple configuration parsing utility with no dependencies
 
@@ -56,6 +56,8 @@ which use "default" feature of "%{crate}" crate.
 
 %prep
 %autosetup -n %{crate}-%{version_no_tilde} -p1
+# remove executable bits from files
+chmod -x README.md CHANGELOG.md Cargo.toml.orig src/*.rs tests/*.rs
 %cargo_prep
 
 %generate_buildrequires
@@ -73,5 +75,5 @@ which use "default" feature of "%{crate}" crate.
 %endif
 
 %changelog
-* Thu Apr 08 2021 Fabio Valentini <decathorpe@gmail.com> - 2.0.0-1
+* Mon Apr 12 2021 Fabio Valentini <decathorpe@gmail.com> - 2.0.1-1
 - Initial package
