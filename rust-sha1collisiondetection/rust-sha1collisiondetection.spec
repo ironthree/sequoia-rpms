@@ -39,6 +39,7 @@ License:        MIT
 %description -n %{crate} %{_description}
 
 %files       -n %{crate}
+%license LICENSE.txt
 %doc README.md
 %{_bindir}/sha1cdsum
 %endif
