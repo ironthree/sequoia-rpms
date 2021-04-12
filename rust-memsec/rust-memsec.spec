@@ -5,7 +5,7 @@
 %global crate memsec
 
 Name:           rust-%{crate}
-Version:        0.5.7
+Version:        0.6.0
 Release:        1%{?dist}
 Summary:        Rust implementation of libsodium/utils
 
@@ -14,7 +14,8 @@ License:        MIT
 URL:            https://crates.io/crates/memsec
 Source:         %{crates_source}
 # Initial patched metadata
-# * Drop Windows and Mac OS dependencies
+# * Drop Windows-specific dependencies
+# * Exclude files only useful for upstream CI
 Patch0:         memsec-fix-metadata.diff
 
 ExclusiveArch:  %{rust_arches}
@@ -134,5 +135,5 @@ which use "use_os" feature of "%{crate}" crate.
 %endif
 
 %changelog
-* Thu Apr 08 2021 Fabio Valentini <decathorpe@gmail.com> - 0.5.7-1
+* Mon Apr 12 2021 Fabio Valentini <decathorpe@gmail.com> - 0.6.0-1
 - Initial package

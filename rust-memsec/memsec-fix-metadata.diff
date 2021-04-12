@@ -1,13 +1,18 @@
---- memsec-0.5.7/Cargo.toml	2020-01-06T15:17:37+00:00
-+++ memsec-0.5.7/Cargo.toml	2021-04-08T11:57:29.067784+00:00
-@@ -29,16 +29,9 @@
- alloc = ["getrandom"]
+--- memsec-0.6.0/Cargo.toml	2020-07-29T17:25:03+00:00
++++ memsec-0.6.0/Cargo.toml	2021-04-12T09:26:20.491322+00:00
+@@ -21,6 +21,7 @@
+ categories = ["no-std", "memory-management"]
+ license = "MIT"
+ repository = "https://github.com/quininer/memsec"
++exclude = ["appveyor.yml"]
+ [dependencies.getrandom]
+ version = "0.1"
+ optional = true
+@@ -29,13 +30,9 @@
+ alloc = ["getrandom", "use_os"]
  default = ["use_os", "alloc"]
  nightly = []
--use_os = ["libc", "winapi", "mach_o_sys"]
--[target."cfg(any(target_os = \"macos\", target_os = \"ios\"))".dependencies.mach_o_sys]
--version = "0.1"
--optional = true
+-use_os = ["libc", "winapi"]
 +use_os = ["libc"]
  [target."cfg(unix)".dependencies.libc]
  version = "0.2"
