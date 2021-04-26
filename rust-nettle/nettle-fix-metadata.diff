@@ -1,9 +1,0 @@
---- nettle-7.0.1/Cargo.toml	2021-02-11T16:23:05+00:00
-+++ nettle-7.0.1/Cargo.toml	2021-03-31T10:07:03.070696+00:00
-@@ -33,6 +33,3 @@
- 
- [dependencies.thiserror]
- version = "1"
--
--[features]
--vendored = ["nettle-sys/vendored"]
